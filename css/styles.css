@@ -1,0 +1,43 @@
+/* Estilos para a seção hero */
+.hero-section {
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-section .btn {
+    margin-top: 20px;
+}
+
+/* Estilos para a seção de serviços */
+.services .icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.services h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+/* Estilos para a galeria */
+.gallery img {
+    border-radius: 10px;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.footer p {
+    margin: 0;
+}
