@@ -1,3 +1,13 @@
+/* Classe personalizada para o fundo vermelho */
+.bg-red {
+    background-color: #dc3545; /* Cor de fundo vermelho */
+}
+
+/* Classe personalizada para o texto branco */
+.text-white {
+    color: #ffffff; /* Cor do texto branco */
+}
+
 /* Estilo do conteúdo principal */
 .about {
     max-width: 800px;
@@ -27,5 +37,5 @@ img {
 
 /* Rodapé */
 footer {
-    background-color: #333;
+    background-color: #dc3545; /* Cor de fundo vermelho */
 }
