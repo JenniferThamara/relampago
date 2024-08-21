@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Relâmpago Marquinhos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Estilos para o Navbar */
+        .navbar {
+            background-color: #dc3545; /* Cor de fundo bg-danger */
+        }
+
+        .navbar-brand, .nav-link {
+            color: #ffffff; /* Cor do texto branco */
+        }
+
+        .navbar-brand:hover, .nav-link:hover, .nav-link.active {
+            color: #e6e6e6; /* Cor mais clara ao passar o mouse ou quando ativo */
+        }
+
+        .navbar-toggler {
+            border-color: #ffffff;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='#ffffff' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+
+        .navbar-collapse {
+            justify-content: flex-end; /* Alinha os itens à direita na versão colapsada */
+        }
+
+        /* Estilos para a versão colapsada (para telas menores) */
+        @media (max-width: 992px) {
+            .navbar-collapse {
+                background-color: #dc3545; /* Cor de fundo bg-danger */
+            }
+
+            .nav-link {
+                border-bottom: 1px solid #ff4c4c; /* Linha separadora para links em dispositivos móveis */
+                padding: 10px 0;
+                text-align: center; /* Centraliza o texto */
+            }
+        }
+
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .contact-form h2 {
+            margin-top: 0;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-form button:hover {
+            background-color: #cc0000;
+        }
+
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #ff0000;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .contact-form {
+                padding: 15px;
+            }
+
+            .contact-form input,
+            .contact-form textarea {
+                padding: 8px;
+            }
+
+            .contact-form button {
+                width: 100%;
+                padding: 12px;
+            }
+
+            .social-links a {
+                font-size: 20px;
+            }
+        }
+    </style>
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <a class="navbar-brand" href="#">Relampago Marquinhos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Início</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="contact-form">
+            <h2>Fale Conosco</h2>
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+
+        <div class="social-links">
+            <h3>Siga-nos nas redes sociais</h3>
+            <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Relâmpago Marquinhos. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
