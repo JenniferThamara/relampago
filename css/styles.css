@@ -1,10 +1,16 @@
+/* Excluindo o logo do border-radius */
+.navbar-brand img {
+    border-radius: 0;
+}
+
 /* Estilos para a seção hero */
 .hero-section {
-    background-image: url('https://via.placeholder.com/1920x1080');
+    background-image: url('../img/cenario.webp');
     background-size: cover;
     background-position: center;
     height: 100vh;
     color: white;
+    position: relative;
 }
 
 .hero-section h1 {
@@ -13,22 +19,23 @@
 }
 
 .hero-section .btn {
+    background-color: #ff1f1f;
+    border: none;
+    width: 200px;
     margin-top: 20px;
 }
 
 /* Estilos para a seção de serviços */
 .services .icon img {
-    width: 80px;
-    height: 80px;
-}
-
-.services h3 {
-    margin-top: 20px;
-    font-size: 1.5rem;
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
 }
 
 /* Estilos para a galeria */
 .gallery img {
+    width: 350px;
+    height: 250px;
     border-radius: 10px;
 }
 
