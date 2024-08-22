@@ -1,0 +1,50 @@
+/* Excluindo o logo do border-radius */
+.navbar-brand img {
+    border-radius: 0;
+}
+
+/* Estilos para a seção hero */
+.hero-section {
+    background-image: url('../img/cenario.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-section .btn {
+    background-color: #ff1f1f;
+    border: none;
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* Estilos para a seção de serviços */
+.services .icon img {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+/* Estilos para a galeria */
+.gallery img {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.footer p {
+    margin: 0;
+}
