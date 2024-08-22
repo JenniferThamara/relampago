@@ -1,0 +1,41 @@
+/* Classe personalizada para o fundo vermelho */
+.bg-red {
+    background-color: #dc3545; /* Cor de fundo vermelho */
+}
+
+/* Classe personalizada para o texto branco */
+.text-white {
+    color: #ffffff; /* Cor do texto branco */
+}
+
+/* Estilo do conteúdo principal */
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    margin-top: 2rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+.about p {
+    margin: 1rem 0;
+}
+
+.about ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+/* Estilo da imagem */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Rodapé */
+footer {
+    background-color: #dc3545; /* Cor de fundo vermelho */
+}
